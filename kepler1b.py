@@ -3,6 +3,9 @@ from matplotlib.pyplot import *
 from scipy.integrate import ode
 import pdb
 
+'''
+This code will generate a plot of a single-body object around a fixed mass.
+'''
 def f(t,Y):
 	x = Y[0]
 	y = Y[1]
